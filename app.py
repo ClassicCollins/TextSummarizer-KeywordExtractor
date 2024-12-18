@@ -32,7 +32,7 @@ def extract_keywords(text):
 # Streamlit UI for the app
 def main():
     # Set the title and description of the app
-    st.title("🔎Summarizer & Extractor✍")
+    st.title("✍🏽Summarizer & Extractor🔍")
     st.markdown("This app uses PEGASUS for text summarization and YAKE for keyword extraction.")
     
     # Add a text input box for the user to input long text
