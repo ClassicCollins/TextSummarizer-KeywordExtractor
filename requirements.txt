@@ -1,5 +1,5 @@
-streamlit==1.21.0
-transformers==4.36.1
-torch==2.2.1
-yake==0.4.8
+streamlit
+transformers
+torch
+yake
 sentencepiece
