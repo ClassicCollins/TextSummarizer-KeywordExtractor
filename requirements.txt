@@ -1,6 +1,5 @@
-streamlit
-transformers
-torch
-yake
+streamlit==1.21.0
+transformers==4.36.1
+torch==1.13.1
+yake==0.4.8
 sentencepiece
-python
