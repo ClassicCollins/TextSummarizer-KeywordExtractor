@@ -1,5 +1,5 @@
-streamlit
-transformers
-torch
-yake
-sentencepiece
+streamlit==1.41.1
+transformers==4.47.1
+torch==2.5.1[2024-12-18 12:03:50.136633]
+yake==[2024-12-18 12:03:50.136927] 0.4.8
+sentencepiece==0.2.0
