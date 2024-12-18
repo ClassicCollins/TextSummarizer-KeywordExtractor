@@ -32,11 +32,11 @@ def extract_keywords(text):
 # Streamlit UI for the app
 def main():
     # Set the title and description of the app
-    st.title("🔎Text Summarizer and Keyword Extractor✍")
+    st.title("🔎Summarizer & Keyword Extractor✍")
     st.markdown("This app uses PEGASUS for text summarization and YAKE for keyword extraction.")
     
     # Add a text input box for the user to input long text
-    user_input = st.text_area("Enter your text for summarization:", height=300)
+    user_input = st.text_area("Enter your post for summarization and Keyword Extraction:", height=300)
     
     # When the user presses the "Generate Summary and Keywords" button
     if st.button("Generate Summary and Keywords"):
