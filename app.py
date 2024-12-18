@@ -36,7 +36,7 @@ def main():
     st.markdown("This app uses PEGASUS for text summarization and YAKE for keyword extraction.")
     
     # Add a text input box for the user to input long text
-    user_input = st.text_area("Enter your post for summarization and Keyword Extraction:", height=300)
+    user_input = st.text_area("Enter your post for Summarization and Keyword Extraction:", height=200)
     
     # When the user presses the "Generate Summary and Keywords" button
     if st.button("Generate Summary and Keywords"):
