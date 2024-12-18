@@ -1,5 +1,5 @@
-streamlit>=1.25.0 
-transformers>=4.32.0
-torch>=2.1.0
-yake>=0.4.7
-sentencepiece>=0.1.97
+streamlit>=1.41.1  
+transformers>=4.47.1
+torch>=2.5.1
+yake>=0.4.8
+sentencepiece>=0.2.0
