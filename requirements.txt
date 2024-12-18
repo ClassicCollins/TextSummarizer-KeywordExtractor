@@ -3,3 +3,4 @@ transformers==4.47.1
 torch==2.5.1
 yake==0.4.8
 sentencepiece==0.2.0
+python>=3.5
