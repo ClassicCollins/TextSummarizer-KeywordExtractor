@@ -23,11 +23,13 @@
 
 
 - `Features`
+  
 •	Text Summarization: Uses the PEGASUS and BART model to summarize long texts into concise versions.
 •	Keyword Extraction: Extracts important keywords from the summarized text using the YAKE algorithm.
 •	Hashtag Generation: Suggests hashtags based on the extracted keywords.
 
 - `Installation`
+
 To run the application, you'll need Python installed on your machine. Make sure to install the following dependencies:
 1.	Clone this repository:
 ’’’
@@ -53,6 +55,7 @@ The requirements.txt file includes the following dependencies:
 - Suggested Hashtags: Automatically generated hashtags based on the extracted keywords.
 
 - `Example`
+
 Input:
 A long passage of text, such as an article or blog post.
 Output:
