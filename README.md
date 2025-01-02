@@ -43,9 +43,9 @@ To run the application, you'll need Python installed on your machine. Make sure 
    pip install -r requirements.txt
    ```
 The requirements.txt file includes the following dependencies:
-  - streamlit - for creating the web application.
-  - transformers - for accessing and using the BART model.
-  - yake - for keyword extraction.
+  -  streamlit - for creating the web application.
+  -  transformers - for accessing and using the BART model.
+  -  yake - for keyword extraction.
   
 - `Usage:`
 1.	Start the Streamlit app by running the following command in your terminal:
@@ -53,30 +53,30 @@ The requirements.txt file includes the following dependencies:
 3.	Open the app in your browser (Streamlit will automatically provide a local URL).
 4.	Enter your text into the input box and click on the "Generate Summary and Keywords" button.
 5.	The app will display:
-  - Summarized Text: A concise version of your input.
-  - Extracted Keywords: A list of keywords extracted from the summary, with their relevance scores.
-  - Suggested Hashtags: Automatically generated hashtags based on the extracted keywords.
+  -  Summarized Text: A concise version of your input.
+  -  Extracted Keywords: A list of keywords extracted from the summary, with their relevance scores.
+  -  Suggested Hashtags: Automatically generated hashtags based on the extracted keywords.
 
 - `Example`
 
 Input:
 A long passage of text, such as an article or blog post.
 Output:
-  - Summarized Text: A shortened version of the text.
-  - Keywords: Key terms like "technology," "innovation," and their relevance scores.
-  - Hashtags: Suggestions like #technology, #innovation.
+  -  Summarized Text: A shortened version of the text.
+  -  Keywords: Key terms like "technology," "innovation," and their relevance scores.
+  -  Hashtags: Suggestions like #technology, #innovation.
 
 - `Code Overview`
   
 summarizer.py
 
-  -	summarize_text(text): Summarizes the input text using the BART model.
-  - extract_keywords(text): Extracts keywords using the YAKE library.
+  -	 summarize_text(text): Summarizes the input text using the BART model.
+  -  extract_keywords(text): Extracts keywords using the YAKE library.
 
 app.py
 
-  - Streamlit UI: Provides an interface for users to input text and see the results.
-  - Generate Summary & Keywords: Processes the text to generate a summary, extract keywords, and suggest hashtags.
+  -  Streamlit UI: Provides an interface for users to input text and see the results.
+  -  Generate Summary & Keywords: Processes the text to generate a summary, extract keywords, and suggest hashtags.
 
 - `License`
 This project is licensed under the MIT License - see the [LICENSE file](https://github.com/ClassicCollins/TextSummarizer-KeywordExtractor/blob/classic/LICENSE) for details.
