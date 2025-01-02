@@ -11,7 +11,7 @@
     This app uses PEGASUS and BART for text summarization and YAKE for keyword extraction.
     The app.py utilizes the PANGASUS model for text summarization, while app2.py uses the BART model for summarization. Both applications leverage YAKE for keyword   extraction. It allows users to input text, which is then summarized, and key topics are extracted. The tool also suggests relevant hashtags based   on the extracted keywords.
     <br />
-    <a href="https://github.com/ClassicCollins/structural-vs-predictive-models"><strong>Explore the Docs »</strong></a>
+    <a href="https://github.com/ClassicCollins/TextSummarizer-KeywordExtractor"><strong>Explore the Docs »</strong></a>
     <br />
     <br />
     <a href="https://summarizer-extractor2.streamlit.app/">Check Out app.py</a>
@@ -31,14 +31,17 @@
 - `Installation`
 
 To run the application, you'll need Python installed on your machine. Make sure to install the following dependencies:
-1.	Clone this repository:
-’’’
-bash
-git clone https://gitlab.com/yourusername/summarizer-keyword-extractor.git
-‘’’
-2.	cd summarizer-keyword-extractor
-3.	Install the required dependencies:
-4.	pip install -r requirements.txt
+1. Clone the repo:
+   ```sh
+   git clone https://gitlab.com/clasiccollins/TextSummarizer-KeywordExtractor.git
+   ```
+   ```sh
+   cd TextSummarizer-KeywordExtractor.git
+   ```
+2. Install required packages:
+   ```sh
+   pip install -r requirements.txt
+   ```
 The requirements.txt file includes the following dependencies:
   - streamlit - for creating the web application.
   - transformers - for accessing and using the BART model.
