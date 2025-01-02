@@ -8,7 +8,7 @@
 <h3 align="center"> 📝Summarizer & Keyword Extractor🔍</h3>
 
   <p align="center">
-    This app uses **PEGASUS** and **BART** for text summarization and YAKE for keyword extraction.
+    This app uses PEGASUS and BART for text summarization and YAKE for keyword extraction.
     The app.py utilizes the PANGASUS model for text summarization, while app2.py uses the BART model for summarization. Both applications leverage YAKE for keyword   extraction. It allows users to input text, which is then summarized, and key topics are extracted. The tool also suggests relevant hashtags based   on the extracted keywords.
     <br />
     <a href="https://github.com/ClassicCollins/structural-vs-predictive-models"><strong>Explore the Docs »</strong></a>
@@ -62,9 +62,12 @@ Output:
 
 - `Code Overview`
 summarizer.py
+
 •	summarize_text(text): Summarizes the input text using the BART model.
 •	extract_keywords(text): Extracts keywords using the YAKE library.
+
 app.py
+
 •	Streamlit UI: Provides an interface for users to input text and see the results.
 •	Generate Summary & Keywords: Processes the text to generate a summary, extract keywords, and suggest hashtags.
 
