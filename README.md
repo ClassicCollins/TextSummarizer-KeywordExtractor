@@ -24,9 +24,9 @@
 
 - `Features`
   
-•	Text Summarization: Uses the PEGASUS and BART model to summarize long texts into concise versions.
-•	Keyword Extraction: Extracts important keywords from the summarized text using the YAKE algorithm.
-•	Hashtag Generation: Suggests hashtags based on the extracted keywords.
+- Text Summarization: Uses the PEGASUS and BART model to summarize long texts into concise versions.
+- Keyword Extraction: Extracts important keywords from the summarized text using the YAKE algorithm.
+- Hashtag Generation: Suggests hashtags based on the extracted keywords.
 
 - `Installation`
 
