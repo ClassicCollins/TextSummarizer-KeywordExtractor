@@ -49,7 +49,10 @@ The requirements.txt file includes the following dependencies:
   
 - `Usage:`
 1.	Start the Streamlit app by running the following command in your terminal:
-2.	streamlit run app.py or app
+2.	Install required packages:
+   ```sh
+   streamlit run app2.py
+   ```
 3.	Open the app in your browser (Streamlit will automatically provide a local URL).
 4.	Enter your text into the input box and click on the "Generate Summary and Keywords" button.
 5.	The app will display:
