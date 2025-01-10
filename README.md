@@ -33,7 +33,7 @@
 To run the application, you'll need Python installed on your machine. Make sure to install the following dependencies:
 1. Clone the repo:
    ```sh
-   git clone https://gitlab.com/clasiccollins/TextSummarizer-KeywordExtractor.git
+   git clone https://git.veegil.com//collins/TextSummarizer-KeywordExtractor.git
    ```
    ```sh
    cd TextSummarizer-KeywordExtractor.git
